@@ -8,6 +8,7 @@ selenium = "*"
 requests = "*"
 beautifulsoup4 = "*"
 pytest = "*"
+pytest-html = "*"
 
 [dev-packages]
 
