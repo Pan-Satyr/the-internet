@@ -3,7 +3,9 @@
 class TestPages:
     ABTEST = "https://the-internet.herokuapp.com/abtest"
     ADD_REMOVE_ELEMENTS_PAGE_URL = "https://the-internet.herokuapp.com/add_remove_elements/"
-    BASIC_AUTH_PAGE_URL = "https://the-internet.herokuapp.com/basic_auth"
+    BASIC_AUTH_URL = "https://the-internet.herokuapp.com/basic_auth"
+    BASIC_AUTH_HAPPY_URL = "https://admin:admin@the-internet.herokuapp.com/basic_auth"
+    BASIC_AUTH_UNHAPPY_URL = "https://incorrect_username:incorrect_password@the-internet.herokuapp.com/basic_auth"
     BROKEN_IMAGES_PAGE_URL = "https://the-internet.herokuapp.com/broken_images"
     CHALLENGING_DOM_PAGE_URL = "https://the-internet.herokuapp.com/challenging_dom"
     CHECKBOXES_PAGE_URL = "https://the-internet.herokuapp.com/checkboxes"
